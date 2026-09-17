@@ -1,13 +1,20 @@
 body {
 
-    background-image: url("../assets/kfupm-logo-300x284.webp");
+    /* background-image: url("../assets/kfupm-logo-300x284.webp" );
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
-    background-size: 20%;
+    background-size: 20%; */
 
 
 }
+#logo {
+    position: fixed;
+    width: 20%;
+    right: 10px;
+    top: 10px;
+}
+
 a:link {
     color: tomato;
 }
@@ -92,7 +99,7 @@ p {
 }
 
 #wrap {
-    width: 800px;
+    width: 90%;
         display: block;
     margin: 0 auto;
 }
