@@ -4,6 +4,7 @@ body {
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
+    background-size: 20%;
 
 
 }
@@ -45,8 +46,8 @@ h2 {
     border-style: solid;
     border-color: green;
     background-color: lightgreen;
-    width: 120px;
-    margin-left: 330px;
+    width: 20%;
+    margin: 10px auto;
     padding: 5px;
     text-align: center;
 }
@@ -67,7 +68,7 @@ p {
     border-color: gold;
     padding: 10px;
     background-color: lightblue;
-    width: 500px;
+    width: 60%;
     box-shadow: 5px 5px 10px grey;
     margin-left: auto;
     margin-right: auto;
@@ -116,4 +117,7 @@ p {
     border-style: solid;
     padding: 10px;
     flex-direction: row;
+    width: 40%;
+        margin-left: auto;
+    margin-right: auto;
 }
