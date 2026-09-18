@@ -32,40 +32,50 @@
 <h2>About Me</h2>
 <div id="box1" class="box">
 <p>My name is Alridha Alqattan, and I am a Computer Science student at King Fahad 
-    University of Petroleum and Minerals. I joined the university in 2023. I am 21 years old </p>
+    University of Petroleum and Minerals. I joined the university in 2023. I am 21 years old. </p>
+    <p><strong>I am very excited to learn more about Web Development!</strong></p>
 </div>
 </sections>
 <section id="projects">
 <h2>Projects</h2>
-<h3 id="title">Project 1: Pseudo File System</h3>
+<h3 class="title">Project 1: Pseudo File System</h3>
 <div id="box2" class="box">
 <p>During my study of ICS202 (Algorithms and Data Structures), i worked on a
     project called Pseudo File System. The project was about creating a file system
     using some concepts of data structures i learned. i used java and tree like structures. 
 </p>
+<a href="assets/file-system.jpg" target="_blank"><img src="assets/file-system.jpg" alt="File System" class="projImg"></a>
 </div>
 </section>
-<h3 id="title">Project 2: Web Development Project</h3>
+<h3 class="title">Project 2: Web Development Project</h3>
 <div id="box3" class="box">
 <p>During my study of SWE363 (Web Development), I worked in a team to create a website
     which enables KFUPM students to report problems in their buldings. Whether the 
     problem is related to electricity, water, or any other issue.
 </p>
+<a href="assets/webdev.jpg" target="_blank"><img src="assets/webdev.jpg" alt="Web Development" class="projImg"></a>
 </div>
 
 <section id="contact">
-
+<form action="mailto:ridalqattan@gmail.com" method="post" enctype="text/plain">
 <h2>Contact</h2>
     <div id="box4" class="box">
-<p>Name: Alridha Alqattan </p>
-<p> Email: ridalqattan@gmail.com</p>
+        <p>
+<label for="name">Name: </label>
+<input type="text" id="name" name="name" placeholder="Enter Your Name" >
+</p>
+
+<p>
+    <label for="email">Email: </label>
+    <input type="email" id="email" name="email" placeholder="Enter Your Email">
+</p>
+
+<input type="text"  name="message" placeholder="Enter your message here..." id="Message">
+<input type="submit" id="submit" value="Send">
+</form>
 </div>
 
-<div id="box5" class="box">
-<p id="message">Message me: </p>  
-<textarea id="message-box" name="message" rows="4" cols="50"></textarea>  
-<input type="submit" id="submit" value="Send">
-</div>
+
 </section>
 </div>
 </body>
