@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,76 +8,84 @@
     <script src="js/script.js" defer></script>
     <title>Document</title>
 </head>
+
 <body>
+
     <div id="wrap">
         <a href="https://www.kfupm.edu.sa/"><img src="assets/kfupm-logo-300x284.webp" alt="KFUPM Logo" id="logo"></a>
-       
-        <div id="timeDate">
-           <p>Date: <span id="date">Date</span></p>
+
+        <div id="timeDate"> <!-- This part uses Javascript to display time and date -->
+            <p>Date: <span id="date">Date</span></p>
             <p>Time: <span id="time">Time</span></p>
         </div>
-    <div id="greet">
-<h1><strong>Alridha Alqattan Website</strong></h1>
-<h3>Welcome to my personal website!</h3>
+
+        <div id="greet">
+            <h1><strong>Alridha Alqattan Website</strong></h1>
+            <h3>Welcome to my personal website!</h3>
+        </div>
+
+        <h2>Navigation</h2> <!-- This part shows the different section and enables the user to navigate to them by a click-->
+        <section id="navigation">
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <div id="box1" class="box">
+                <p>My name is Alridha Alqattan, and I am a Computer Science student at King Fahad
+                    University of Petroleum and Minerals. I joined the university in 2023. I am 21 years old. </p>
+                <p><strong>I am very excited to learn more about Web Development!</strong></p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <h3 class="title">Project 1: Pseudo File System</h3>
+            <div id="box2" class="box">
+                <p>During my study of ICS202 (Algorithms and Data Structures), i worked on a
+                    project called Pseudo File System. The project was about creating a file system
+                    using some concepts of data structures i learned. i used java and tree like structures.
+                </p>
+                <a href="assets/file-system.jpg" target="_blank"><img src="assets/file-system.jpg" alt="File System"
+                        class="projImg"></a>
+            </div>
+        </section>
+
+        <h3 class="title">Project 2: Web Development Project</h3>
+        <div id="box3" class="box">
+            <p>During my study of SWE363 (Web Development), I worked in a team to create a website
+                which enables KFUPM students to report problems in their buldings. Whether the
+                problem is related to electricity, water, or any other issue.
+            </p>
+            <a href="assets/webdev.jpg" target="_blank"><img src="assets/webdev.jpg" alt="Web Development"
+                    class="projImg"></a>
+        </div>
+
+        <section id="contact">
+            <form action="mailto:ridalqattan@gmail.com" method="post" enctype="text/plain">
+                <h2>Contact</h2>
+                <div id="box4" class="box">
+                    <p>
+                        <label for="name">Name: </label>
+                        <input type="text" id="name" name="name" placeholder="Enter Your Name">
+                    </p>
+
+                    <p>
+                        <label for="email">Email: </label>
+                        <input type="email" id="email" name="email" placeholder="Enter Your Email">
+                    </p>
+
+                    <input type="text" name="message" placeholder="Enter your message here..." id="Message">
+                    <input type="submit" id="submit" value="Send">
+            </form>
     </div>
-    <h2>Navigation</h2>
-    <section id="navigation">
+    </section>
+    </div>
 
-    <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</section>
-<section id="about">
-<h2>About Me</h2>
-<div id="box1" class="box">
-<p>My name is Alridha Alqattan, and I am a Computer Science student at King Fahad 
-    University of Petroleum and Minerals. I joined the university in 2023. I am 21 years old. </p>
-    <p><strong>I am very excited to learn more about Web Development!</strong></p>
-</div>
-</sections>
-<section id="projects">
-<h2>Projects</h2>
-<h3 class="title">Project 1: Pseudo File System</h3>
-<div id="box2" class="box">
-<p>During my study of ICS202 (Algorithms and Data Structures), i worked on a
-    project called Pseudo File System. The project was about creating a file system
-    using some concepts of data structures i learned. i used java and tree like structures. 
-</p>
-<a href="assets/file-system.jpg" target="_blank"><img src="assets/file-system.jpg" alt="File System" class="projImg"></a>
-</div>
-</section>
-<h3 class="title">Project 2: Web Development Project</h3>
-<div id="box3" class="box">
-<p>During my study of SWE363 (Web Development), I worked in a team to create a website
-    which enables KFUPM students to report problems in their buldings. Whether the 
-    problem is related to electricity, water, or any other issue.
-</p>
-<a href="assets/webdev.jpg" target="_blank"><img src="assets/webdev.jpg" alt="Web Development" class="projImg"></a>
-</div>
-
-<section id="contact">
-<form action="mailto:ridalqattan@gmail.com" method="post" enctype="text/plain">
-<h2>Contact</h2>
-    <div id="box4" class="box">
-        <p>
-<label for="name">Name: </label>
-<input type="text" id="name" name="name" placeholder="Enter Your Name" >
-</p>
-
-<p>
-    <label for="email">Email: </label>
-    <input type="email" id="email" name="email" placeholder="Enter Your Email">
-</p>
-
-<input type="text"  name="message" placeholder="Enter your message here..." id="Message">
-<input type="submit" id="submit" value="Send">
-</form>
-</div>
-
-
-</section>
-</div>
 </body>
+
 </html>

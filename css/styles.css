@@ -1,49 +1,91 @@
 body {
     background: linear-gradient(to left, white, rgb(142, 74, 74));
     scroll-behavior: smooth;
- 
-
 }
 
+/* percentages are used for better displaying on phones */
+#navigation {
+    display: flex;
+    background-color: lightblue;
+    border-style: solid;
+    width: 80%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 10px auto;
+    font-size: 30px;
+}
+
+#navigation ul {
+    list-style-type: upper-latin;
+    padding: 5px;
+    margin: 0;
+}
+
+/* an id for a wrap that wraps nearly the entire body */
+#wrap {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+#timeDate {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background-color: lightgreen;
+    border-style: solid;
+    padding: 10px;
+    flex-direction: row;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* KFUPM Logo formatting */
 #logo {
     position: fixed;
     width: 10%;
     right: 10px;
     top: 10px;
     z-index: -1;
+    /* To make it always in the background */
     border-radius: 150px;
 }
 
-a:link {
-    color: tomato;
-}
 a:visited {
-    color: grey;
+    color: indianred;
 }
+
 a:hover {
-    color: lightblue;
+    color: black;
 }
-div#greet > h1 {
+
+div#greet>h1 {
     color: black;
     font-size: 30px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
-div#greet > h3 {
+
+div#greet>h3 {
     color: black;
     font-size: 20px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-    text-shadow: 2px 2px 5px red; 
+    text-shadow: 2px 2px 5px red;
     text-align: center;
 }
 
 h1 {
     color: black;
-    
+
 }
+
 h2 {
     display: flex;
     color: black;
@@ -60,15 +102,10 @@ h2 {
     justify-content: center;
     flex-direction: column;
 }
+
 h3 {
     color: black
 }
-
-p { 
-    color: black;   
-
-}
-
 
 .box {
     text-align: center;
@@ -86,32 +123,19 @@ p {
     flex-direction: column;
     justify-content: center;
     font-size: 30px;
-
 }
 
 #box4 {
     flex-direction: column;
-
 }
 
-#navigation{
-    display: flex;
-    background-color: lightblue;
-    border-style: solid;
-    width: 80%;
+#box5 {
+    flex-direction: column;
+    gap: 10px;
     align-items: center;
-    text-align: center;
-    justify-content: center;
-    border-radius: 10px;
-    margin: 10px auto;
-    font-size: 30px;
 }
 
-#navigation ul {
-    list-style-type:upper-latin ;
-    padding: 5px;
-    margin: 0;
-}
+
 
 .title {
     display: flex;
@@ -121,38 +145,6 @@ p {
     align-items: center;
     justify-content: center;
     width: 70%;
-    
-}
-
-#wrap {
-    width: 90%;
-        display: block;
-    margin: 0 auto;
-}
-
-#message {
-    text-align: center;
-    font-size: 20px;
-}
-
-#box5 {
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
-}
-
-#timeDate {
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
-    background-color: lightgreen;
-    border-style: solid;
-    padding: 10px;
-    flex-direction: row;
-    width: 70%;
-        margin-left: auto;
-    margin-right: auto;
 }
 
 .projImg {
