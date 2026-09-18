@@ -18,5 +18,5 @@
 - Contact By inputting Name, Email and write a message.
 - Images that generally show the topic of my projects.
 - A KFUPM logo on the corner of the website that is fixed and in the background.
-- Colorful menus.
+- Colorful boxes.
 - Linear Gradient background.
